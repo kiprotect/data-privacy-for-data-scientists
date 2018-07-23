@@ -1,4 +1,4 @@
-# Let's test this! We repeat our DP data generation a number of times to generate a list of estimates.
+# %load "../solutions/differential-privacy/repeat-dp.py"
 
 p_1_hats = []
 
