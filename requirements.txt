@@ -1,3 +1,5 @@
 faker
 jupyter
+matplotlib
+pandas
 requests
