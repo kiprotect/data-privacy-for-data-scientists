@@ -1,5 +1,3 @@
-# %load "../solutions/differential-privacy/repeat-dp.py"
-
 p_1_hats = []
 
 df['income_binary'] = np.where(df['income'] == '<=50k', 0, 1)

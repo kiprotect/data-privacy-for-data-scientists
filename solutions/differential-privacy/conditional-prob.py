@@ -1,4 +1,3 @@
-
 def p_cond(p, k, p_1):
     """
     :param   p: The probability of returning a random value instead of the true one

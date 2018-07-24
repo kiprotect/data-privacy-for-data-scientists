@@ -1,5 +1,3 @@
-# %load "../solutions/differential-privacy/estimate-var.py"
-
 def var_1_estimator(p_1dp, n, p, k):
     """
     :param p_1dp: The estimates probability of our DP dataset.

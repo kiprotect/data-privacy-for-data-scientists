@@ -1,5 +1,3 @@
-# %load "../solutions/differential-privacy/estimate-p1.py"
-
 p_1 = df['income_binary'].sum()/len(df)
 p_1dp = df['income_dp'].sum()/len(df)
 print("True value: {:.3f}. DP-value: {:.3f}.".format(p_1, p_1dp))

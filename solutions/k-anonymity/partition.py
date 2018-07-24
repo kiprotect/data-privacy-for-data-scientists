@@ -1,4 +1,3 @@
-
 def is_k_anonymous(df, partition, sensitive_column, k=3):
     """
     :param               df: The dataframe on which to check the partition.

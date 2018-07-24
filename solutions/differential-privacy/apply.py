@@ -1,5 +1,3 @@
-# %load "../solutions/differential-privacy/apply.py"
-
 import numpy as np
 
 p = 0.5

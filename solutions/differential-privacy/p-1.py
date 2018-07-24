@@ -1,4 +1,3 @@
-# %load "../solutions/differential-privacy/p-1.py"
 def p_1_estimator(p_1dp, p, k):
     """
     :param p_1dp: The empirical probability of x_i=1 of our DP dataset.

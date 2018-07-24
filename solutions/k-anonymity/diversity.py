@@ -1,4 +1,3 @@
-
 def diversity(df, partition, column):
     return len(df[column][partition].unique())
 

@@ -6,4 +6,4 @@ def epsilon(p, k):
     :param k: The probability of returning 1 when generating a random value
     :returns: The epsilon for the given values of p, k
     """
-    return -np.log(1-p*(1-k))
+    return -np.log(p*k)
