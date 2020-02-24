@@ -8,9 +8,9 @@ backcall==0.1.0 \
     --hash=sha256:38ecd85be2c1e78f77fd91700c76e14667dc21e2713b63876c0eb901196e01e4 \
     --hash=sha256:bbbf4b1e5cd2bdb08f915895b51081c041bac22394fdfcfdfbe9f14b77c08bf2 \
     # via ipython
-bleach==2.1.3 \
-    --hash=sha256:b8fa79e91f96c2c2cd9fd1f9eda906efb1b88b483048978ba62fef680e962b34 \
-    --hash=sha256:eb7386f632349d10d9ce9d4a838b134d4731571851149f9cc2c05a9a837a9a44 \
+bleach==3.1.1 \
+    --hash=sha256:44f69771e2ac81ff30d929d485b7f9919f3ad6d019b6b20c74f3b8687c3f70df \
+    --hash=sha256:aa8b870d0f46965bac2c073a93444636b0e1ca74e9777e34f03dd494b8a59d48 \
     # via nbconvert
 certifi==2018.4.16 \
     --hash=sha256:13e698f54293db9f89122b0581843a782ad0934a4fe0172d2a980ba77fc61bb7 \
@@ -35,10 +35,6 @@ entrypoints==0.2.3 \
 faker==0.8.17 \
     --hash=sha256:0e9a1227a3a0f3297a485715e72ee6eb77081b17b629367042b586e38c03c867 \
     --hash=sha256:b4840807a94a3bad0217d6ed3f9b65a1cc6e1db1c99e1184673056ae2c0a4c4d
-html5lib==1.0.1 \
-    --hash=sha256:20b159aa3badc9d5ee8f5c647e5efd02ed2a66ab8d354930bd9ff139fc1dc0a3 \
-    --hash=sha256:66cb0dcfdbbc4f9c3ba1a63fdb511ffdbd4f513b2b6d81b80cd26ce6b3fb3736 \
-    # via bleach
 idna==2.7 \
     --hash=sha256:156a6814fb5ac1fc6850fb002e0852d56c0c8d2531923a51032d1b70760e186e \
     --hash=sha256:684a38a6f903c1d71d6d5fac066b58d7768af4de2b832e426ec79c30daa94a16 \
@@ -297,7 +293,7 @@ simplegeneric==0.8.1 \
 six==1.11.0 \
     --hash=sha256:70e8a77beed4562e7f14fe23a786b54f6296e34344c23bc42f07b15018ff98e9 \
     --hash=sha256:832dc0e10feb1aa2c68dcc57dbb658f1c7e65b9b61af69048abc87a2db00a0eb \
-    # via bleach, cycler, faker, html5lib, matplotlib, prompt-toolkit, python-dateutil, traitlets
+    # via bleach, cycler, faker, matplotlib, prompt-toolkit, python-dateutil, traitlets
 terminado==0.8.1 \
     --hash=sha256:55abf9ade563b8f9be1f34e4233c7b7bde726059947a593322e8a553cc4c067a \
     --hash=sha256:65011551baff97f5414c67018e908110693143cfbaeb16831b743fe7cad8b927 \
@@ -334,7 +330,7 @@ wcwidth==0.1.7 \
 webencodings==0.5.1 \
     --hash=sha256:a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78 \
     --hash=sha256:b36a1c245f2d304965eb4e0a82848379241dc04b865afcc4aab16748587e1923 \
-    # via html5lib
+    # via bleach
 widgetsnbextension==3.3.0 \
     --hash=sha256:af7412053b646a5372278bf772714543acdd6e0ad87f18171ba6a0c9009e3114 \
     --hash=sha256:c5280a62d293735cdadc7b8884e2affcfb0488420ee09963577f042359726392 \
