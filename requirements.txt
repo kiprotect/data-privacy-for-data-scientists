@@ -8,9 +8,9 @@ backcall==0.1.0 \
     --hash=sha256:38ecd85be2c1e78f77fd91700c76e14667dc21e2713b63876c0eb901196e01e4 \
     --hash=sha256:bbbf4b1e5cd2bdb08f915895b51081c041bac22394fdfcfdfbe9f14b77c08bf2 \
     # via ipython
-bleach==2.1.3 \
-    --hash=sha256:b8fa79e91f96c2c2cd9fd1f9eda906efb1b88b483048978ba62fef680e962b34 \
-    --hash=sha256:eb7386f632349d10d9ce9d4a838b134d4731571851149f9cc2c05a9a837a9a44 \
+bleach==3.1.2 \
+    --hash=sha256:2ffa40dfa80b141ff58eee538bce0d2a09c7d456018d00f7a2cb0ebf967c524d \
+    --hash=sha256:f0b1ee0315062e60afa6b7cc39b1c3718b591e1d552a8841044dc49a68465659 \
     # via nbconvert
 certifi==2018.4.16 \
     --hash=sha256:13e698f54293db9f89122b0581843a782ad0934a4fe0172d2a980ba77fc61bb7 \
@@ -34,11 +34,8 @@ entrypoints==0.2.3 \
     # via nbconvert
 faker==0.8.17 \
     --hash=sha256:0e9a1227a3a0f3297a485715e72ee6eb77081b17b629367042b586e38c03c867 \
-    --hash=sha256:b4840807a94a3bad0217d6ed3f9b65a1cc6e1db1c99e1184673056ae2c0a4c4d
-html5lib==1.0.1 \
-    --hash=sha256:20b159aa3badc9d5ee8f5c647e5efd02ed2a66ab8d354930bd9ff139fc1dc0a3 \
-    --hash=sha256:66cb0dcfdbbc4f9c3ba1a63fdb511ffdbd4f513b2b6d81b80cd26ce6b3fb3736 \
-    # via bleach
+    --hash=sha256:b4840807a94a3bad0217d6ed3f9b65a1cc6e1db1c99e1184673056ae2c0a4c4d \
+    # via -r requirements.in
 idna==2.7 \
     --hash=sha256:156a6814fb5ac1fc6850fb002e0852d56c0c8d2531923a51032d1b70760e186e \
     --hash=sha256:684a38a6f903c1d71d6d5fac066b58d7768af4de2b832e426ec79c30daa94a16 \
@@ -87,7 +84,8 @@ jupyter-core==4.4.0 \
 jupyter==1.0.0 \
     --hash=sha256:3e1f86076bbb7c8c207829390305a2b1fe836d471ed54be66a3b8c41e7f46cc7 \
     --hash=sha256:5b290f93b98ffbc21c0c7e749f054b3267782166d72fa5e3ed1ed4eaf34a2b78 \
-    --hash=sha256:d9dc4b3318f310e34c82951ea5d6683f67bed7def4b259fafbfe4f1beb1d8e5f
+    --hash=sha256:d9dc4b3318f310e34c82951ea5d6683f67bed7def4b259fafbfe4f1beb1d8e5f \
+    # via -r requirements.in
 kiwisolver==1.0.1 \
     --hash=sha256:0ee4ed8b3ae8f5f712b0aa9ebd2858b5b232f1b9a96b0943dceb34df2a223bc3 \
     --hash=sha256:0f7f532f3c94e99545a29f4c3f05637f4d2713e7fd91b4dd8abfc18340b86cd5 \
@@ -143,7 +141,8 @@ matplotlib==2.2.2 \
     --hash=sha256:c78883145da9b5620aec523fa14ea814e07f2ba26a16b7f68ff7300604a911b3 \
     --hash=sha256:dc0ba2080fd0cfdd07b3458ee4324d35806733feb2b080838d7094731d3f73d9 \
     --hash=sha256:f26fba7fc68994ab2805d77e0695417f9377a00d36ba4248b5d0f1e5adb08d24 \
-    --hash=sha256:f397479742c1ca31805a4bffdfcc5f6189a31116b79aa0b83a50c689f42a23bb
+    --hash=sha256:f397479742c1ca31805a4bffdfcc5f6189a31116b79aa0b83a50c689f42a23bb \
+    # via -r requirements.in
 mistune==0.8.3 \
     --hash=sha256:b4c512ce2fc99e5a62eb95a4aba4b73e5f90264115c40b70a21e1f7d4e0eac91 \
     --hash=sha256:bc10c33bfdcaa4e749b779f62f60d6e12f8215c46a292d05e486b869ae306619 \
@@ -209,7 +208,8 @@ pandas==0.23.3 \
     --hash=sha256:bc80c13ffddc7e269b706ed58002cc4c98cc135c36d827c99fb5ca54ced0eb7a \
     --hash=sha256:cbb074efb2a5e4956b261a670bfc2126b0ccfbf5b96b6ed021bc8c8cb56cf4a8 \
     --hash=sha256:e8c62ab16feeda84d4732c42b7b67d7a89ad89df7e99efed80ea017bdc472f26 \
-    --hash=sha256:ff5ef271805fe877fe0d1337b6b1861113c44c75b9badb595c713a72cd337371
+    --hash=sha256:ff5ef271805fe877fe0d1337b6b1861113c44c75b9badb595c713a72cd337371 \
+    # via -r requirements.in
 pandocfilters==1.4.2 \
     --hash=sha256:b3dd70e169bb5449e6bc6ff96aea89c5eea8c5f6ab5e207fc2f521a2cf4a0da9 \
     # via nbconvert
@@ -286,7 +286,8 @@ qtconsole==4.3.1 \
     # via jupyter
 requests==2.19.1 \
     --hash=sha256:63b52e3c866428a224f97cab011de738c36aec0185aa91cfacd418b5d58911d1 \
-    --hash=sha256:ec22d826a36ed72a7358ff3fe56cbd4ba69dd7a6718ffd450ff0e9df7a47ce6a
+    --hash=sha256:ec22d826a36ed72a7358ff3fe56cbd4ba69dd7a6718ffd450ff0e9df7a47ce6a \
+    # via -r requirements.in
 send2trash==1.5.0 \
     --hash=sha256:60001cc07d707fe247c94f74ca6ac0d3255aabcb930529690897ca2a39db28b2 \
     --hash=sha256:f1691922577b6fa12821234aeb57599d887c4900b9ca537948d2dac34aea888b \
@@ -297,7 +298,7 @@ simplegeneric==0.8.1 \
 six==1.11.0 \
     --hash=sha256:70e8a77beed4562e7f14fe23a786b54f6296e34344c23bc42f07b15018ff98e9 \
     --hash=sha256:832dc0e10feb1aa2c68dcc57dbb658f1c7e65b9b61af69048abc87a2db00a0eb \
-    # via bleach, cycler, faker, html5lib, matplotlib, prompt-toolkit, python-dateutil, traitlets
+    # via bleach, cycler, faker, matplotlib, prompt-toolkit, python-dateutil, traitlets
 terminado==0.8.1 \
     --hash=sha256:55abf9ade563b8f9be1f34e4233c7b7bde726059947a593322e8a553cc4c067a \
     --hash=sha256:65011551baff97f5414c67018e908110693143cfbaeb16831b743fe7cad8b927 \
@@ -334,7 +335,7 @@ wcwidth==0.1.7 \
 webencodings==0.5.1 \
     --hash=sha256:a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78 \
     --hash=sha256:b36a1c245f2d304965eb4e0a82848379241dc04b865afcc4aab16748587e1923 \
-    # via html5lib
+    # via bleach
 widgetsnbextension==3.3.0 \
     --hash=sha256:af7412053b646a5372278bf772714543acdd6e0ad87f18171ba6a0c9009e3114 \
     --hash=sha256:c5280a62d293735cdadc7b8884e2affcfb0488420ee09963577f042359726392 \
